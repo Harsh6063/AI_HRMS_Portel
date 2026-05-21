@@ -149,6 +149,70 @@ Operational Readiness Monitoring
 
 ```
 
+# Demo
+
+## Recruitment Intelligence Dashboard
+
+- AI ATS Resume Analysis
+- AI Resume Summaries using Groq LLM
+- Candidate Workflow Tracking
+- SLA Monitoring
+- Operational Alerts
+
+## Onboarding Intelligence
+
+- Role-Based Onboarding Tasks
+- Welcome Mail Automation
+- Workforce Readiness Tracking
+- Onboarding Risk Detection
+
+---
+
+# Screenshots
+
+## Dashboard
+
+![Dashboard Screenshot](./screenshots/dashboard.png)
+![Dashboard Screenshot 2](./screenshots/dashboard2.png)
+
+
+---
+
+## Recruitment Intelligence
+
+![Recruitment Screenshot](./screenshots/recruitment.png)
+
+---
+
+## AI Resume Summary
+
+![AI Summary Screenshot](./screenshots/ai-summary.png)
+
+---
+
+## Onboarding Intelligence
+
+![Onboarding Screenshot](./screenshots/onboarding.png)
+
+---
+
+## Mail Sending Auto
+![Mail Shortlist Screenshot](./screenshots/Mail.png)
+![Mail Interview Screenshot](./screenshots/Mail2.png)
+
+## Alerts
+![Alert Screenshot](./screenshots/Alert.png)
+
+---
+---
+
+# Demo Video
+
+Add your demo video link here:
+
+```text
+https://your-demo-video-link.com
+
 # AI Features
 
 ## AI Resume Intelligence
