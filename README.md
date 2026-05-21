@@ -398,7 +398,9 @@ npm install
 ```
 npm run dev
 ```
-🔮 Future Enhancements
+#  Future Enhancements
+
+
 [ ] Dynamic Interview Prep: AI generation of distinct interview questions custom-tailored to a candidate's resume gaps.
 
 [ ] Comparative Analytics: Side-by-side AI candidate alignment evaluations.
