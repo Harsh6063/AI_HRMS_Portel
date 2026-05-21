@@ -208,10 +208,9 @@ Operational Readiness Monitoring
 
 # Demo Video
 
-Add your demo video link here:
-
-```text
-https://your-demo-video-link.com
+```
+https://drive.google.com/file/d/1rupwM2_XDQWMMwvELzpvhHBdbGe71Nmk/view?usp=drive_link
+```
 
 # AI Features
 
