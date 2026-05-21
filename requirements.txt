@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+sqlalchemy
+psycopg2-binary
+python-dotenv
+python-multipart
+pymupdf
+groq
+fastapi-mail
+requests
+jinja2
+email-validator
+pydantic
+pydantic-settings
