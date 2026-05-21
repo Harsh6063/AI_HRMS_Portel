@@ -348,62 +348,56 @@ onboarding_tasks — Checklists, assignments, and progression trackers for new h
 
 alerts — Chronological log of operational bottlenecks and SLA threshold violations.
 
-⚙️ Core Architecture Decisions
-Why FastAPI? Offers blazing fast operations with native asynchronous endpoints, automatic data validation via Pydantic, and automatic Swagger docs (/docs).
-
-Why PostgreSQL & SQLAlchemy? Relational databases guarantee transaction consistency and query scaling. SQLAlchemy cleans up operations through maintainable object mapping layers.
-
-Why Next.js & Tailwind CSS? Reusable component paradigms speed up development. Tailwind removes code clutter while assembling slick dashboards.
-
-Why Groq & Llama 3.1? Minimizes user wait time via lightning-quick LLM text responses while matching larger models in reasoning quality.
-
-Why PyMuPDF? A lightweight, native library that extracts text with high parsing accuracy.
-
-🔍 Key Functional Blocks
-Recruitment Intelligence: Handles ATS scoring, text summarization, lifecycle states, interview steps, and multi-factor candidate prioritization.
-
-Operational Intelligence: Evaluates system logs against predefined SLA targets, generating automated notifications and escalating delays.
-
-Workforce Readiness: Standardizes onboarding tasks, monitors completion curves, and highlights progress risks.
-
-Communication Automation: Dispatches transactional messages for shortlists, interviews, onboarding welcomes, and internal status updates.
-
-Dashboard Features: Consolidates analytics, funnel visualizations, alert grids, SLA tracking matrices, and live timeline streams.
 
 🚀 Installation & Setup Guide
 1. Backend Configuration
 Navigate to the backend module directory, set up your Python packages, and boot the application engine:
 
-Bash
-# Enter the backend directory
+Bash 
+```
 cd backend
+```
+
 
 # Install production dependencies
+```
 pip install -r requirements.txt
+```
 
 # Launch the FastAPI application using Uvicorn
+```
 uvicorn main:app --reload
+```
+
 Backend Environment Variables (backend/.env)
 Create an environment file inside your backend root folder containing the following configuration keys:
 
 Code snippet
+```
 DATABASE_URL=postgresql://postgres:password@localhost:5432/saarthihr
 GROQ_API_KEY=your_groq_api_key
 MAIL_USERNAME=yourgmail@gmail.com
 MAIL_PASSWORD=your_gmail_app_password
 MAIL_FROM=yourgmail@gmail.com
+```
 2. Frontend Configuration
 Navigate to your frontend application source code folder, download the Node modules, and launch the UI engine:
 
 Bash
 # Enter the frontend directory
+```
 cd frontend
+```
 
 # Install client packages
+```
 npm install
+```
 
 # Initialize the Next.js development client
+```
 npm run dev
+```
 🔮 Future Enhancements
 [ ] Dynamic Interview Prep: AI generation of distinct interview questions custom-tailored to a candidate's resume gaps.
 
