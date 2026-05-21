@@ -42,18 +42,12 @@ Traditional HR and recruitment systems face several operational challenges:
 - No onboarding readiness visibility
 - Delayed onboarding activities go unnoticed
 
-## Operational Challenges
-
-- No SLA monitoring
-- No intelligent workflow alerts
-- Delays are detected too late
-- Lack of executive-level visibility
 
 ---
 
 # Proposed Solution
 
-SaarthiHR solves these challenges by building:
+HR solves these challenges by building:
 
 > An AI-powered operational intelligence layer over recruitment and onboarding workflows.
 
@@ -140,7 +134,6 @@ Employee Creation
         ↓
 Onboarding Started
         ↓
-
 Welcome Mail Sent
         ↓
 Task Tracking
@@ -150,23 +143,6 @@ Operational Readiness Monitoring
 ```
 
 # Demo
-
-## Recruitment Intelligence Dashboard
-
-- AI ATS Resume Analysis
-- AI Resume Summaries using Groq LLM
-- Candidate Workflow Tracking
-- SLA Monitoring
-- Operational Alerts
-
-## Onboarding Intelligence
-
-- Role-Based Onboarding Tasks
-- Welcome Mail Automation
-- Workforce Readiness Tracking
-- Onboarding Risk Detection
-
----
 
 # Screenshots
 
@@ -342,7 +318,6 @@ The prioritization engine improves recruiter efficiency by ensuring high-quality
 
 ### Frontend
 | Technology | Purpose |
-| :--- | :--- |
 | **Next.js** | Scalable frontend framework for modern production routing |
 | **React.js** | Component-based, interactive user interfaces |
 | **Tailwind CSS** | Utility-first styling engine for modern, responsive enterprise UIs |
@@ -350,7 +325,6 @@ The prioritization engine improves recruiter efficiency by ensuring high-quality
 
 ### Backend
 | Technology | Purpose |
-| :--- | :--- |
 | **FastAPI** | High-performance, asynchronous REST backend endpoints |
 | **SQLAlchemy** | Object-Relational Mapping (ORM) database abstraction layer |
 | **PostgreSQL** | Enterprise-grade, stable relational database instance |
@@ -358,7 +332,6 @@ The prioritization engine improves recruiter efficiency by ensuring high-quality
 
 ### AI / NLP / Resume Processing
 | Technology | Purpose |
-| :--- | :--- |
 | **Groq API** | Ultra-fast, low-latency AI inference execution pipeline |
 | **Llama 3.1 8B** | Primary open-weights LLM utilized for parsing and resume intelligence |
 | **PyMuPDF (fitz)** | Highly efficient layout-aware text extraction from PDF files |
@@ -367,7 +340,6 @@ The prioritization engine improves recruiter efficiency by ensuring high-quality
 
 ### Email Automation
 | Technology | Purpose |
-| :--- | :--- |
 | **FastAPI-Mail** | Integrated async mail service framework engine |
 | **Gmail SMTP** | Reliable transactional gateway for secure email transmission |
 
@@ -469,12 +441,6 @@ npm run dev
 [ ] Comparative Analytics: Side-by-side AI candidate alignment evaluations.
 
 [ ] Onboarding Copilot: Interactive, conversational assistant to support new hires during onboarding.
-
-[ ] Security Controls: Deep role-based authorization rules (RBAC) across departments.
-
-[ ] Live Notifications: Real-time push updates for urgent SLA breaches.
-
-[ ] Advanced Search Operations: Semantic vector indexing for contextual, natural language resume search.
 
 [ ] Multi-Tenancy Framework: Clean database partitioning to support multi-company software deployments.
 
